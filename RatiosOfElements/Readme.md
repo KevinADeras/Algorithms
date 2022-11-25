@@ -6,7 +6,7 @@ new line with 6 places after the decimal.
 scaled to six decimal places, though answers with absolute error of up to
 10^-4 are acceptable.
 
-**Example**
+## Example
 
 arr = [1,1,0,-1,-1]
 
@@ -14,29 +14,31 @@ There are n = 5 elements, two positive, two negative and one zero. Their
 ratios are 2/5 = 0.400000, 2/5 = 0.400000 and 1/5 = 0.200000. Results are 
 printed as:
 
+```plain
 0.400000
 0.400000
 0.200000
+```
 
-**Function Description**
+## Function Description
 
 Complete the plusMinus function in the editor below.
 plusMinus has the following parameter(s):
 
 -int arr[n]: an array of integers
 
-**Print**
+## Print
 
 Print the ratios of positive, negative and zero values in the array. Each 
 value should be printed on a separate line with 6 digits after the decimal. 
 The function should not return a value.
 
-**Input Format**
+## Input Format
 
 The first line contains an integer,*n* , the size of the array.
 The second line contains *n* space-separated integers that describe *arr[n]*.
 
-**Constraints**
+## Constraints
 
 **Print** the following 3 lines, each to 6 decimals:
 
@@ -44,20 +46,24 @@ The second line contains *n* space-separated integers that describe *arr[n]*.
 2.proportion of negative values
 3.proportion of zeros
 
-**Sample Input**
+## Sample Input
 
+```plain
 STDIN           Function
 -----           --------
 6               arr[] size n = 6
 -4 3 -9 0 4 1   arr = [-4, 3, -9, 0, 4, 1]
+```
 
-**Sample Output**
+## Sample Output
 
+```plain
 0.500000
 0.333333
 0.166667
+```
 
-**Explanation**
+## Explanation
 
 
 There are 3 positive numbers, 2 negative numbers, and 1 zero in the array.
